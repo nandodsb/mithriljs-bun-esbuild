@@ -1,5 +1,11 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
+
+# Builds
+
+./src/css
+./src/js
+
 # Logs
 
 logs
