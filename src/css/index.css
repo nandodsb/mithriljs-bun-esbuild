@@ -701,13 +701,13 @@ video {
   outline-style: solid;
 }
 
-.hover\:bg-blue-300:hover {
+.hover\:bg-red-300:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 400px) {
-  .mobile\:bg-red-300 {
+@media (min-width: 640px) {
+  .sm\:bg-red-300 {
     --tw-bg-opacity: 1;
     background-color: rgb(252 165 165 / var(--tw-bg-opacity));
   }
