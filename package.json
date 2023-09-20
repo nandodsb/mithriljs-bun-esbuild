@@ -16,6 +16,6 @@
     "mithril": "^2.2.2"
   },
   "scripts": {
-    "build": "bun run --postcss -i ./src/index.css -o ./src/css/index.css --hot && esbuild ./src/index.js --bundle --outfile=./src/js/index.js --watch --servedir=."
+    "build": "bun run tailwindcss -i ./src/index.css -o ./src/css/index.css --hot && esbuild ./src/index.js --bundle --outfile=./src/js/index.js --watch --servedir=."
   }
 }
